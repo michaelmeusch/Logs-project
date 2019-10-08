@@ -60,7 +60,7 @@ def get_top_article_authors():
         LIMIT 3;
     """
 
-    # Run Query
+    # Run Query2
     results = run_query(query)
 
     # Print Results
@@ -94,7 +94,7 @@ def get_days_with_errors():
         ORDER BY percent DESC;
     """
 
-    # Run Query
+    # Run Query3
     results = run_query(query)
 
     # Print Results
